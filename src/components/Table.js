@@ -11,8 +11,9 @@ const Table = ({ sat }) => {
         </thead>
         <tbody>
           {sat.map((data, id) => {
+            // console.log(data);
+            // console.log(id);
 
-            console.log(data.launchdate)
             return (
               <tr key={id}>
                 <td>{data.name}</td>
