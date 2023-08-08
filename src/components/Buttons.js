@@ -1,4 +1,5 @@
 import satData from "./satData";
+import './styling.css'
 
 //TODO: Fix This!
 
@@ -7,7 +8,7 @@ const Buttons = (props) => {
   const setSat = props.setSat;
   const displaySats = props.displaySats;
   return (
-    <div>
+    <div className='flex-container'>
       {displaySats.map((sat, id) => {
         
         return (
