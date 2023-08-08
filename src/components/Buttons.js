@@ -1,5 +1,7 @@
 import satData from "./satData";
 
+//TODO: Fix This!
+
 const Buttons = (props) => {
   const filterByType = props.filterByType;
   const setSat = props.setSat;
